@@ -1,46 +1,46 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="空腹61915961"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+遭難しています[l][r]
+空腹のあまり、死の直前に幻視したものは...[l][r]
 
-メロスは激怒した。[l][r]
-
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
-
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sakana] →魚 [endlink][r]
+[link target=*tag_niku] →肉 [endlink][r]
 [s]
 
-*tag_sleep
-
+*tag_sakana
 [cm]
+[link target=*tag_sniru] →煮る [endlink][r]
+[link target=*tag_syaku] →焼く [endlink][r]
+[s]
 
-[bg storage=sleep.jpg time=500]
-
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
-
-【 BAD END 】[l][cm]
-
+*tag_sniru
+[cm]
+金目鯛の煮つけが食べたい[l][cm]
 [jump target=*start]
 
-*tag_run
-
-[bg storage=run.jpg time=500]
-
+*tag_syaku
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+さんまの塩焼きが食べたい[l][cm]
+[jump target=*start]
 
-【 GOOD END 】[l][cm]
+*tag_niku
+[cm]
+[link target=*tag_nniru] →煮る [endlink][r]
+[link target=*tag_nyaku] →焼く [endlink][r]
+[s]
 
+*tag_nniru
+[cm]
+豚の角煮が食べたい[l][r]
+圧力鍋が欲しい[l][cm]
+[jump target=*start]
+
+*tag_nyaku
+[cm]
+BBQしよう[l][cm]
 [jump target=*start]
